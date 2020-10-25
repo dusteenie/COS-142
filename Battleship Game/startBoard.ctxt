@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=startBoard
+comment1.params=
+comment1.target=startBoard()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ startBoard.\r\n
+comment2.params=
+comment2.target=void\ initStartScreen()
+comment2.text=\r\n\ Initalizes\ the\ start\ JFrame,\ as\ well\ as\ adds\ a\ 3x3\ grid\ layout\ to\ it.\ \r\n\ This\ screen\ is\ the\ "home"\ screen\ of\ the\ game.\r\n
+comment3.params=
+comment3.target=void\ initConfigScreen()
+comment3.text=\r\n\ Initalizes\ the\ init\ JFrame,\ which\ is\ used\ to\ configure\ the\ game.\r\n\ This\ method\ also\ adds\ a\ 4x3\ grid\ layout\ to\ this\ JFrame.\ \r\n
+comment4.params=
+comment4.target=void\ startConfig()
+comment4.text=\r\n\ This\ method\ disposes\ the\ start\ screen,\ loads\ the\ cofigure\ screen,\ and\ then\ adds\ \r\n\ user\ interface\ materials\ to\ it.\ \r\n
+comment5.params=
+comment5.target=void\ startBuild()
+comment5.text=\r\n\ This\ method\ disposes\ the\ configure\ screen,\ and\ then\ loads\ the\ game.\r\n\ This\ method\ is\ called\ on\ within\ class\ ButtonListener()\r\n
+comment6.params=
+comment6.target=void\ finishStartUP()
+comment6.text=\r\n\ This\ method\ disposes\ the\ start\ screen,\ and\ then\ loads\ the\ game.\r\n\ This\ method\ is\ called\ on\ within\ class\ ButtonListener()\r\n
+comment7.params=
+comment7.target=void\ loadGame()
+comment7.text=\r\n\ This\ method\ calls\ on\ class\ BattleshipBoard\ to\ create\ and\ play\ the\ game.\r\n\ Depending\ on\ the\ settings\ the\ user\ had\ selected,\ the\ proper\ argument\ is\ passed\ \r\n\ for\ the\ sizee\ of\ the\ board.\r\n
+numComments=8
