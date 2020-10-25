@@ -256,7 +256,7 @@ public class BlackJack
     public static void printRules()
     {
         System.out.println("Welcome to BLACKJACK!\nThe objective of blackjack is:\n" +
-            "to beat the dealer’s hand by either\n\thaving a total over 16 that exceeds the dealer’s total,\n\t" + 
+            "to beat the dealerÂ’s hand by either\n\thaving a total over 16 that exceeds the dealerÂ’s total,\n\t" + 
             "by not going over 21 when the dealer does.\n\nYou can either hit or stand.\n" + 
             "\tHitting gives you another card.\n\tStanding means you're ready to play your hand.\n" +
             "Cards are worth their face values.\nKings, Queens, and Jacks are worth 10 points\n" +
