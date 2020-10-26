@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FIFOLIFO
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ This\ is\ the\ main\ method\ of\ the\ driver\ class.\ This\ method\ prompts\ the\ user\ for\r\n\ input,\ and\ then\ uses\ that\ data\ to\ access\ the\ neccessary\ file\ for\ information.\r\n\ Afterwards,\ this\ method\ will\ proccess\ the\ information,\ and\ print\ both\r\n\ FIFO\ and\ LIFO\ accounting\ information.\r\n\r\n\ @param\ \ \ \ \ \ \ \ None,\ this\ is\ the\ main\ method.\r\n\ @return\ \ \ \ \ \ \ None,\ this\ is\ the\ main\ method;\ see\ description.\r\n
+comment2.params=
+comment2.target=void\ processData()
+comment2.text=\r\n\ processData()\ is\ a\ method\ which\ proccesses\ all\ the\ lines\ within\ a\ given\ file.\r\n\ This\ method\ determins\ if\ the\ user\ has\ brought\ /\ sold\ an\ item,\r\n\ how\ much\ profit\ they\ made\ for\ that\ individual\ sale,\ as\ well\ as\ the\ net\ profit.\r\n\ Afterwards,\ this\ method\ calls\ on\ report(param,param,param,param)\ to\ print\ the\ results.\r\n\r\n\ @param\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ None.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ void,\ see\ description.\r\n\ @exception\ \ \ \ EmptyQueueException\ \ \ \ \ This\ exception\ is\ thrown\ when\ an\ empty\ queue\ is\ being\ minipulated.\r\n\ @exception\ \ \ \ EmptyStackException\ \ \ \ \ This\ exception\ is\ thrown\ when\ an\ empty\ stack\ is\ being\ minipulated.\r\n\ \r\n
+comment3.params=fifoNet\ lifoNet\ fAverage\ lAverage
+comment3.target=void\ report(int,\ int,\ double,\ double)
+comment3.text=\r\n\ Decides\ which\ accounting\ method\ will\ maximize\ profit,\ and\ prints\ a\ generated\ report\ \r\n\ based\ on\ the\ found\ data.\r\n\r\n\ @param\ \ \ \ fifoNet\ \ \ \ \ an\ int\ containing\ the\ net\ profit\ for\ the\ fifo\ accounting\ method.\r\n\ @param\ \ \ \ lifoNet\ \ \ \ \ an\ int\ containing\ the\ net\ profit\ for\ the\ lifo\ accounting\ method.\r\n\ @param\ \ \ \ fAverage\ \ \ \ A\ double\ which\ contains\ the\ average\ profit\ generated\ for\ the\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ fifo\ accounting\ method.\ This\ is\ calculated\ within\ the\ method\ call.\r\n\ @param\ \ \ \ lAverage\ \ \ \ A\ double\ which\ contains\ the\ average\ profit\ generated\ for\ the\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lifo\ accounting\ method.\ This\ is\ calculated\ within\ the\ method\ call.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ void,\ see\ description.\r\n
+numComments=4

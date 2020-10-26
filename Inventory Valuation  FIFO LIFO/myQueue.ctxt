@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=myQueue
+comment1.params=
+comment1.target=myQueue()
+comment1.text=\r\n\ myQueue()\ is\ the\ constructor\ for\ myQueue.java\r\n\ This\ constructor\ initalizes\ the\ linked\ list.\r\n\ \r\n\ @param\ \ \ \ None.\r\n
+comment2.params=a
+comment2.target=void\ enqueue(java.lang.Object)
+comment2.text=\r\n\ enqueue(param)\ is\ a\ method\ which\ adds\ items\ to\ the\ queue.\r\n\ \r\n\ @param\ \ \ a\ \ \ This\ paramater\ is\ of\ type\ E.\ The\ element\ is\ then\ added\ to\ the\ queue.\r\n\ @return\ \ \ \ \ \ void.\r\n
+comment3.params=
+comment3.target=java.lang.Object\ dequeue()
+comment3.text=\r\n\ dequeue()\ is\ a\ method\ which\ removes\ and\ returns\ the\ first\ \r\n\ element\ within\ the\ queue.\r\n\ \r\n\ @param\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ None,\ see\ description.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Returns\ the\ first\ element\ in\ the\ queue\ by\ removing\ it.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ This\ return\ is\ of\ type\ E.\r\n\ @exception\ \ \ EmptyQueueException\ \ \ \ \ This\ exception\ is\ thrown\ if\ the\ queue\ is\ empty\r\n
+comment4.params=
+comment4.target=java.lang.Object\ front()
+comment4.text=\r\n\ front()\ is\ a\ method\ which\ returns\ the\ first\ element\ within\ the\ queue,\ without\r\n\ removing\ it.\r\n\ \r\n\ @param\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ None,\ see\ description.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Returns\ the\ first\ element\ in\ the\ queue\ and\ does\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ NOT\ remove\ it.\ This\ return\ is\ of\ type\ E.\r\n\ @exception\ \ \ EmptyQueueException\ \ \ \ \ This\ exception\ is\ thrown\ if\ the\ queue\ is\ empty\r\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\r\n\ size()\ is\ a\ method\ which\ returns\ the\ size\ of\ the\ queue.\r\n\ \r\n\ @param\ \ \ \ \ \ \ None,\ see\ description.\r\n\ @return\ \ \ \ \ \ Returns\ the\ size\ of\ the\ queue.\ This\ return\ is\ of\ type\ int.\r\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=\r\n\ isEmpty()\ is\ a\ method\ which\ returns\ T/F\ if\ the\ queue\ is\ empty.\r\n\ \r\n\ @param\ \ \ \ \ \ \ None,\ see\ description.\r\n\ @return\ \ \ \ \ \ Returns\ whether\ or\ not\ if\ the\ queue\ is\ empty.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ This\ return\ is\ of\ type\ boolean.\r\n
+numComments=7

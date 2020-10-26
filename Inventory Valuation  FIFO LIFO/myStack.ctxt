@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=myStack
+comment1.params=
+comment1.target=myStack()
+comment1.text=\r\n\ myStack()\ is\ the\ constructor\ for\ myStack.java\r\n\ This\ constructor\ initalizes\ the\ linked\ list.\r\n\ \r\n\ @param\ \ \ \ None.\r\n
+comment2.params=a
+comment2.target=void\ push(java.lang.Object)
+comment2.text=\r\n\ enqueue(param)\ is\ a\ method\ which\ adds\ items\ to\ the\ stack.\r\n\ \r\n\ @param\ \ \ a\ \ \ This\ paramater\ is\ of\ type\ E.\ The\ element\ is\ then\ added\ to\ the\ stack.\r\n\ @return\ \ \ \ \ \ void.\r\n
+comment3.params=
+comment3.target=java.lang.Object\ pop()
+comment3.text=\r\n\ pop()\ is\ a\ method\ which\ removes\ and\ returns\ the\ first\ element\ within\ the\ stack.\r\n\ \r\n\ @param\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ None,\ see\ description.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Returns\ the\ first\ element\ in\ the\ stack\ by\ removing\ it.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ This\ return\ is\ of\ type\ E.\r\n\ @exception\ \ \ EmptyStackException\ \ \ \ \ This\ exception\ is\ thrown\ if\ the\ stack\ is\ empty\r\n
+comment4.params=
+comment4.target=java.lang.Object\ top()
+comment4.text=\r\n\ top()\ is\ a\ method\ which\ returns\ the\ first\ element\ within\ the\ stack,\ without\r\n\ removing\ it.\r\n\ \r\n\ @param\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ None,\ see\ description.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Returns\ the\ first\ element\ in\ the\ stack\ and\ does\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ NOT\ remove\ it.\ This\ return\ is\ of\ type\ E.\r\n\ @exception\ \ \ EmptyStackException\ \ \ \ \ This\ exception\ is\ thrown\ if\ the\ stack\ is\ empty\r\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\r\n\ size()\ is\ a\ method\ which\ returns\ the\ size\ of\ the\ stack.\r\n\ \r\n\ @param\ \ \ \ \ \ \ None,\ see\ description.\r\n\ @return\ \ \ \ \ \ Returns\ the\ size\ of\ the\ stack.\ This\ return\ is\ of\ type\ int.\r\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=\r\n\ isEmpty()\ is\ a\ method\ which\ returns\ T/F\ if\ the\ stack\ is\ empty.\r\n\ \r\n\ @param\ \ \ \ \ \ \ None,\ see\ description.\r\n\ @return\ \ \ \ \ \ Returns\ whether\ or\ not\ if\ the\ stack\ is\ empty.\ This\ return\ is\ of\ type\ boolean.\r\n
+numComments=7
