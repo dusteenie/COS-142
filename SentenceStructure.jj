@@ -1,0 +1,154 @@
+
+
+PARSER_BEGIN(SentenceStructure)
+
+/** Simple brace matcher. */
+public class SentenceStructure {
+
+
+
+  /** Main entry point. */
+  public static void main(String args[]) throws ParseException {
+    SentenceStructure parser = new SentenceStructure(System.in);
+    parser.Start();
+  }
+
+}
+
+PARSER_END(SentenceStructure)
+SKIP :
+{
+  " "
+| "\t"
+| "\n"
+| "\r"
+}
+
+TOKEN :
+{
+  <CHARACTER: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ">
+| <DIGIT: "0123456789">
+}
+
+/** Root production. */
+void Start():
+{ }
+{
+   Subject() Verb() Object() Place() Time() Punctuation() <EOF>
+}
+
+
+/** ----    ----    ----    Subject    ----    ----    ----    */
+void Subject():
+{}
+{
+  (ProNoun() | Noun())
+}
+
+void ProNoun():
+{}
+{
+  ("I"|"i"|"you"|"he"|"she"|"they")
+}
+
+void Noun():
+{}
+{
+  ("ball"|"house"|"bear"|"apple"|"spatula"|"beans"|"gorilla")
+}
+
+void Article():
+{}
+{
+  ("the"|"a"|"an"|"by"|"at"|"in")
+}
+
+/** ----    ----    ----    Verb    ----    ----    ----    */
+void Verb():
+{}
+{
+  Action() [Adverb()]
+}
+
+void Adverb():
+{}
+{
+  (How()  When()  Where()  HowMuch()  HowOften())
+}
+
+void When():
+{}
+{
+  ("above" | "below" | "towards" | "abroad")
+}
+
+void How():
+{}
+{
+  ("quietly"| "peacefully"| "badly"| "quickly")
+}
+
+
+void Where():
+{}
+{
+  ("above"|"below"|"towards"|"abroad")
+}
+
+void HowMuch():
+{}
+{
+  ("quite"|"fairly"|"barely"|"fully")
+}
+
+void HowOften():
+{}
+{
+  ("always"|"often"|"never"|"rarely"|"sometimes")
+}
+
+void Action():
+{}
+{
+  ("drive"|"drank"|"ate"|"threw")
+}
+
+/** ----    ----    ----    Object    ----    ----    ----    */
+void Object():
+{}
+{
+  [Article()] Thing()
+}
+
+void Thing():
+{}
+{
+  ("ball"|"house"|"bear"|"apple"|"spatula"|"beans"|"gorilla")
+}
+
+/** ----    ----    ----    Place    ----    ----    ----    */
+void Place():
+{}
+{
+  [Article()] Location()
+}
+
+void Location():
+{}
+{
+  ("Tacobell"|"home"|"park"|"pike")
+}
+
+/** ----    ----    ----    Time    ----    ----    ----    */
+void Time():
+{}
+{
+  ("yesterday"|"tonight"|"tomorrow"|"today"|"usually"|"rarely")
+}
+
+/** ----    ----    ----    Punctuation    ----    ----    ----    */
+void Punctuation():
+{}
+{
+  ("."|"!"|","|",,,"|"..."|"?"|"?!"|";")
+}
